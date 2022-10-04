@@ -22,9 +22,13 @@ void main()
         pid2 = fork();
         if (pid2 == 0)
         {
-            printf("proceso hijo pid = %d\n proceso padre pid = %d\n", getpid(), getppid());
+            printf("pid del proceso del segundo hijo = %d\npid del proceso padre = %d\n", getpid(), getppid());
         }
-        wait(NULL);
+        else
+        {
+            wait(NULL);
+        }
+        
         
     }
 }
