@@ -13,10 +13,11 @@ void main()
 
     if (pid == 0)
     {
-        system("whoami\n");
+        printf("Cristian");//opcion 1
+        //opcion 2: system("whoami");
     }
     else
     {
-        printf("proceso hijo pid = %d ; proceso padre pid = %d\n", getpid(), getppid());
+        printf("pid del proceso P2 = %d y pid del proceso P1 = %d\n", pid, getpid());
     }
 }
