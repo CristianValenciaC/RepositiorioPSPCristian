@@ -16,17 +16,17 @@ void main()
         pid_hijo = fork();
         if (pid_hijo == 0)
         {
-            printf("proceso hijo pid = %d ; proceso padre pid = %d\n", getpid(), getppid());
+            printf("pid del proceso P3 = %d ; pid del proceso padre del P3 = %d\n", getpid(), getppid());
         }
         else
         {
             wait(NULL);
-            printf("proceso hijo pid = %d ; proceso padre pid = %d\n", getpid(), getppid());
+            printf("pid del proceso P2 = %d ; pid del proceso padre del P2 = %d\n", getpid(), getppid());
         }
     }
     else
     {
         wait(NULL);
-        printf("proceso hijo pid = %d ; proceso padre pid = %d\n", getpid(), getppid());
+        printf("pid del proceso hijo de P1 = %d y pid del proceso P1= %d\n", pid, getpid());
     }
 }
