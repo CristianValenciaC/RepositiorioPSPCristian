@@ -38,6 +38,7 @@ int main()
           signal(SIGUSR2, manejadorPadre);
           printf("Mando una señal al hijo\n");
           kill(pid_hijo, SIGUSR1);//ENVIA SEÑAL AL HIJO 
+          pause();
           sleep(1);
           break;
   } 
