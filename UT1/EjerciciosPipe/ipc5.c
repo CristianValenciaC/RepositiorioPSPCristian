@@ -12,6 +12,7 @@ void main(){
      int fd[2];
      int fd2[2];
      char buffer[30];
+     char buffer2[30];
      char letrasNIF[] = "TRWAGMYFPDXBNJZSQVHLCKE";
      pid_t pid;
     
@@ -41,9 +42,9 @@ void main(){
                 
                 write(fd[1], mensaje, 10);
 
-                read(fd2[0], buffer, 10);
+                read(fd2[0], buffer2, 10);
 
-                printf("La letra del NIF es: %s \n", buffer);
+                printf("La letra del NIF es: %s \n", buffer2);
      
      }
      
