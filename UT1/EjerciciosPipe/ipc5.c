@@ -4,6 +4,8 @@
 #include <sys/wait.h> 
 #include <string.h>
 
+//Hecho por Cristian Valencia
+
 void main(){
 
      /*Array para almacenar descriptores del fichero*/
