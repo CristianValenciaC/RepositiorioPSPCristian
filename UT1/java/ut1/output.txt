@@ -1,0 +1,9 @@
+PING www.educa.madrid.org (193.146.123.100) 56(84) bytes of data.
+64 bytes from 193.146.123.100 (193.146.123.100): icmp_seq=1 ttl=56 time=9.30 ms
+64 bytes from 193.146.123.100 (193.146.123.100): icmp_seq=2 ttl=56 time=42.2 ms
+64 bytes from 193.146.123.100 (193.146.123.100): icmp_seq=3 ttl=56 time=9.48 ms
+64 bytes from 193.146.123.100 (193.146.123.100): icmp_seq=4 ttl=56 time=7.02 ms
+
+--- www.educa.madrid.org ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3005ms
+rtt min/avg/max/mdev = 7.022/17.002/42.216/14.589 ms
